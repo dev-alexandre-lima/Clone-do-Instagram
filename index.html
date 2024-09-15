@@ -8,40 +8,69 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <!-- Banner do site -->
     <main class="main">
         <div id="contianer-main">
-            <img src="/img/logo_instagram.png" alt="logo do Instagram">
+            <!-- Banner do site -->
+            <div class="banner-container">
+                <img src="/img/banner2.png" alt="Crie uma conta no Instagram">
+            </div>
         </div>
-        <div id="container-banner">
-            <img src="/img/banner1.png" alt="#">
-            <img src="/img/banner2.png" alt="#">
+        <!-- Login e Registro -->
+        <div id="form-container">
+            <div id="form-box">
+                <img src="img/logo_instagram.png" alt="">
+            </div>
         </div>
-
+        <div id="register-container">
+            <p>Não em uma conta? <a href="#">Cadastre-se</a></p>
+        </div>
+        <div id="get-app-container">
+           <p>Obtenha o aplicativo.</p>
+           <a href="#">
+            <img src="img/apple_btn.png" alt="Apple Store">
+           </a>
+           <a href="#">
+            <img src="img/gplay_btn.png" alt="Google Play">
+           </a>
+        </div>
         <!-- Login dos usuarios -->
-        <form class="contianer-login">
-            <input type="text" name="username" id="username" placeholder="Número de telefone,usuário ou e-mail">
+        <form id="login-form">
+            <input type="text" name="username" placeholder="Número de telefone,usuário ou e-mail">
             <input type="password" name="password" placeholder="Senha">
-            <input type="submit" name="submit" id="Entrar" placeholder="Entrar">
+            <input type="submit" value="Entrar">
         </form>
-        <span>OU</span>
+        <div class="separator">
+            <div class="line"></div>
+            <span>OU</span>
+        </div>
+        <div id="other-links">
+            <img src="img/logo_facebook.svg" alt="Facebook login">
+            <span>Entrar com o facebook</span>
+        </div>
+        <div id="forgot-pass">
+            <a href="">Esqueceu a senha?</a>
+        </div>
         <div id="facebook">
             <a href="#">Entrar com o facebook</a>
         </div>
-        <div id="senha">
-            <a href="">Esqueceu a senha?</a>
-        </div>
-        <div>
-            <p>Não em uma conta? <a href="#">Cadastre-se</a></p>
-        </div>
-        <div class="contianer-aplicativos">
-            <p>Obtenha o aplicativo</p>
-            <img src="/img/apple_btn.png" alt="">
-            <img src="/img/gplay_btn.png" alt="">
-        </div>
     </main>
     <footer>
-        <p>©2022 Instagram from Meta</p>
+        <nav>
+            <ul id="footer-links">
+                <li><a href="#">Meta</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Ajuda</a></li>
+                <li><a href="#">Api</a></li>
+                <li><a href="#">Privacidade</a></li>
+                <li><a href="#">Termos</a></li>
+                <li><a href="#">Principais Contas</a></li>
+                <li><a href="#">Hashtags</a></li>
+                <li><a href="#">Localização</a></li>
+                <li><a href="#">Instagram Lite</a></li>
+            </ul>
+        </nav>
+        <p id="copyright">&copy;2024 Instagram From Meta</p>
     </footer>
 </body>
 </html>
