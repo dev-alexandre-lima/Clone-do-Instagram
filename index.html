@@ -10,48 +10,48 @@
 <body>
     <main>
         <div id="main-container">
-            <!-- Banner do site -->
-            <div class="banner-container">
-                <img src="/img/banner2.png" alt="Crie uma conta no Instagram">
+            <!-- Banner Container -->
+            <div id="banner-container">
+                <img src="img/banner2.png" alt="Crie uma conta no Instagram">
             </div>
-        </div>
-        <!-- Login e Registro -->
-        <div id="form-container">
-            <div id="form-box">
-                <img src="img/logo_instagram.png" alt="Instagram">
+            <!-- Login e Registro -->
+            <div id="form-container">
+                <div id="form-box">
+                    <img src="img/logo_instagram.png" alt="Instagram">
+                    <form id="login-form">
+                        <input type="text" 
+                        name="usarname" 
+                        placeholder="Número de telefone, usuário ou e-mail">
+                        <input type="password" name="password" placeholder="Senha">
+                        <input type="submit" value="Entrar">
+                    </form>
+                    <div class="separetor">
+                        <div class="line"></div>
+                        <span>OU</span>
+                    </div>
+                    <div id="other-links">
+                        <div id="facebook-login">
+                            <img src="img/logo_facebook.svg" alt="Facebook Login">
+                            <span>Entrar com o Facebook</span>
+                        </div>
+                        <div id="forgot-pass">
+                            <a href="#">Esqueceu a senha?</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="register-container">
+                    <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+                </div>
+                <div id="get-app-container">
+                    <p>Obtenha o aplicativo.</p>
+                    <a href="#">
+                        <img src="img/apple_btn.png" alt="Apple Store">
+                    </a>
+                    <a href="#">
+                        <img src="img/gplay_btn.png" alt="Google Play">
+                    </a>
+                </div>
             </div>
-        </div>
-        <div id="register-container">
-            <p>Não em uma conta? <a href="#">Cadastre-se</a></p>
-        </div>
-        <div id="get-app-container">
-           <p>Obtenha o aplicativo.</p>
-           <a href="#">
-            <img src="img/apple_btn.png" alt="Apple Store">
-           </a>
-           <a href="#">
-            <img src="img/gplay_btn.png" alt="Google Play">
-           </a>
-        </div>
-        <!-- Login dos usuarios -->
-        <form id="login-form">
-            <input type="text" name="username" placeholder="Número de telefone,usuário ou e-mail">
-            <input type="password" name="password" placeholder="Senha">
-            <input type="submit" value="Entrar">
-        </form>
-        <div class="separator">
-            <div class="line"></div>
-            <span>OU</span>
-        </div>
-        <div id="other-links">
-            <img src="img/logo_facebook.svg" alt="Facebook Login">
-            <span>Entrar com o facebook</span>
-        </div>
-        <div id="forgot-pass">
-            <a href="">Esqueceu a senha?</a>
-        </div>
-        <div id="facebook">
-            <a href="#">Entrar com o facebook</a>
         </div>
     </main>
     <footer>
@@ -61,7 +61,7 @@
                 <li><a href="#">Sobre</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Ajuda</a></li>
-                <li><a href="#">Api</a></li>
+                <li><a href="#">API</a></li>
                 <li><a href="#">Privacidade</a></li>
                 <li><a href="#">Termos</a></li>
                 <li><a href="#">Principais Contas</a></li>
