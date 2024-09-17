@@ -36,3 +36,29 @@ body{
 #form-container {
     text-align: center;
 }
+
+
+/* LOGIN-FORM */
+#form-box {
+    background-color: #fff;
+    border: 1px solid;
+    width: 350px;
+    margin-top: 30px;
+}
+
+#logo-insta{
+    width: 175px;
+    height: 51px;
+    margin: 30px auto 12px;
+}
+
+#login-form {
+    margin-top: 20px;
+}
+
+#login-form input {
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: #fafafa ;
+}
