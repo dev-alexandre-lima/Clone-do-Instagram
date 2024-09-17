@@ -204,3 +204,40 @@ footer #footer-links {
 #copyright {
     margin-top: 10px;
 }
+
+/* MOBILE */
+@media (max-width: 450px) {
+    body {
+        background-color: #fff;
+    }
+
+    #banner-container {
+        display: none;
+    }
+
+    #main-container,
+    #form-box {
+        margin-top: 0;
+    }
+
+    #form-contianer,
+    #form-box,
+    #register-container,
+    #get-app-container {
+        width: 100px;
+        border: none;
+    }
+
+    footer {
+        width: 90%;
+    }
+    
+    #footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #footer-links {
+        margin-bottom: 10px;
+    }
+}
